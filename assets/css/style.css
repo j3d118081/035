@@ -462,9 +462,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #jepang .htextundertek {
-  margin-top: 10px;
+  margin-top: 1px;
   position: relative; 
   height: 10vh;
+  width: 61%;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #projectf{
@@ -659,6 +662,46 @@ h1, h2, h3, h4, h5, h6 {
   height: 20%;
 }
 
+#interview .jepang1{
+  color: #808080;
+  margin-top: 1%;
+  font-size: 20px;
+  position: absolute;
+  top: 120px;
+  z-index: 1;
+  margin-left: 16%;
+  height: 20%;
+}
+
+#interview .jepang2{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  margin-left: 16%;
+  height: 25%;
+  width: 31.5%;
+  font-weight: bold;
+}
+
+#interview .jepang3{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 280px;
+  z-index: 1;
+  margin-left: 16%;
+  height: 20%;
+}
+
+#interview .more{
+  width: 50px;
+  top: 355px;
+  position: absolute; 
+  margin-left: 16%;
+  z-index: 1;
+}
 #interview .text-jepangin{
   font-family: 'Crimson Text', serif;
   color: #0e0e0e;
@@ -685,6 +728,14 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 5%;
   position: absolute; 
   right: 140px;
+  z-index: 1;
+}
+
+#interview .kotak-kanan{
+  width: 90%;
+  top: 75%;
+  position: absolute;
+  margin-left: 53%;
   z-index: 1;
 }
 
@@ -882,13 +933,28 @@ h1, h2, h3, h4, h5, h6 {
   padding: bottom 3px ;
 }
 
+#blog .get-btn {
+  color: #808080;
+  border: 1px solid #808080;
+  border-radius: 1px ;
+  text-align:   center; 
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 12px;
+  display: inline-block;
+  background-color: white;
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 2px;
+  margin-top: 37%;
+  margin-left: 47%;
+}
+
 #recruit{
-  width: 100%;
-  height: 100vh;
-  bottom: 50px;
   position: relative;
-  opacity: 100%;
-  background: #fff;
+  background-image:  url("../img/Bottom.png");
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  height: 110vh;
 }
 
 #recruit .h2text-recruit{
@@ -918,37 +984,90 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #recruit .rec1{
-  top: 180px;
-  position: absolute;
-  margin-left: 12%;
-  margin-right: auto;
+  top: 35%;
+  position: absolute; 
+  left: 16%;
   z-index: 1;
 }
+
+#recruit .r1jepang{
+  color: black;
+  margin-top: 9%;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  margin-left: 21%;
+  height: 20%;
+  z-index: 1;
+}
+
 #recruit .rec2{
-  top: 180px;
-  position: absolute;
-  margin-left: 32%;
-  margin-right: auto;
+  top: 35%;
+  position: absolute; 
+  left: 34%;
   z-index: 1;
 }
+
+#recruit .r2jepang{
+  color: black;
+  margin-top: 9%;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  margin-left: 38%;
+  height: 20%;
+  z-index: 1;
+}
+
 #recruit .rec3{
-  top: 180px;
-  position: absolute;
-  margin-left: 52%;
-  margin-right: auto;
+  top: 35%;
+  position: absolute; 
+  left: 52%;
   z-index: 1;
 }
+
+#recruit .r3jepang{
+  color: black;
+  margin-top: 9%;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 34%;
+  height: 20%;
+  z-index: 1;
+}
+
 #recruit .rec4{
-  top: 180px;
-  position: absolute;
-  margin-left: 72%;
-  margin-right: auto;
+  top: 35%;
+  position: absolute; 
+  right: 14.5%;
   z-index: 1;
 }
-#recruit .shadow-r{
-  margin-top: 300px;
-  width: 100%;
-  z-index: 0;
+
+#recruit .r4jepang{
+  color: black;
+  margin-top: 9%;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 19.5%;
+  height: 20%;
+  z-index: 1;
+}
+
+#recruit .entry-btn {
+  color: #fff;
+  text-align:   center; 
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 20px;
+  display: inline-block;
+  background-color: #151e3d;
+  padding: 18px 95px 18px 95px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 2px;
+  margin-top: 36%;
+  margin-left: 42%;
 }
 
 .container .himage {
@@ -1129,7 +1248,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #013e8d;
+  background: #18175c;
   padding: 0 0 20px 0;
   color: #fff;
   height: 10vh;
